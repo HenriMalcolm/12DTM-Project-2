@@ -356,9 +356,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1422024934}
   - component: {fileID: 1422024933}
-  - component: {fileID: 1422024932}
   - component: {fileID: 1422024931}
   - component: {fileID: 1422024930}
+  - component: {fileID: 1422024935}
   m_Layer: 0
   m_Name: RedTank
   m_TagString: Untagged
@@ -413,20 +413,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1422024932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422024929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 871a2825d3b1e1947af2a2f6940b0b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  rb: {fileID: 1422024931}
 --- !u!212 &1422024933
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -494,6 +480,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15.442}
+--- !u!114 &1422024935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422024929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0f9ecca8a710642a4bef0f1b7347f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
 --- !u!1 &2028999491
 GameObject:
   m_ObjectHideFlags: 0
