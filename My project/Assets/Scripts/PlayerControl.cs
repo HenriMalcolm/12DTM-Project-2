@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    private float horizontalInput; // Useing A and D
+    private float horizontalInput; // Inupt for moveing
     public float speed = 1.0f; // Speed of player
     public Rigidbody2D rb;
 
@@ -17,7 +17,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxis("Horizontal");  // Useing A and D
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
         if (horizontalInput == 0)
         {
